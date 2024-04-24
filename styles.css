@@ -1,0 +1,111 @@
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Make the container full height of the viewport */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Styling for the main container */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Styling for headings inside the container */
+.container h2 {
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Styling for text inputs inside the container */
+.container input[type="text"],
+.container input[type="password"] {
+    width: 90%; /* Take up full width of the container */
+    padding: 10px;
+    margin-bottom: 15px; /* Add space between input fields */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling for submit buttons inside the container */
+.container input[type="submit"] {
+    width: 100%; /* Take up full width of the container */
+    padding: 10px;
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Styling for submit buttons on hover */
+.container input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Styling for error messages inside the container */
+.container .message {
+    text-align: center; /* Center-align error messages */
+    color: red; /* Red color for error messages */
+    margin-bottom: 10px; /* Add space below error messages */
+}
+
+/* Styling for social login buttons */
+.social-login {
+    margin-top: 20px; /* Add space above social login buttons */
+    text-align: center; /* Center-align social login buttons */
+}
+
+.social-login button {
+    margin: 0 5px; /* Add margin between social login buttons */
+    padding: 10px 20px; /* Add padding to social login buttons */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #3b5998; /* Facebook button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Styling for Google login button */
+.social-login button.google {
+    background-color: #db4437; /* Google button background color */
+}
+
+/* Styling for social login buttons on hover */
+.social-login button:hover {
+    background-color: #2d4373; /* Darker background color on hover */
+}
+
+/* Styles for the main container */
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for the logo container */
+.logo-container {
+    flex: 1; /* Take up remaining space */
+    padding: 20px; /* Add some padding around the logo */
+}
+
+/* Styles for the logo image */
+.logo {
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Rest of your existing CSS styles */
+
